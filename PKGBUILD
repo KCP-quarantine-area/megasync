@@ -7,7 +7,7 @@ arch=('x86_64')
 license=('custom:MEGA')
 depends=('qt5-base' 'c-ares' 'curl' 'crypto++' 'hicolor-icon-theme' 'libuv')
 makedepends=('git' 'qt5-tools')
-source=("git+https://github.com/meganz/MEGAsync.git#tag=v${pkgver//./_}_0_Linux")
+source=("https://github.com/meganz/MEGAsync.git")
 md5sums=('SKIP')
 
 prepare() {
